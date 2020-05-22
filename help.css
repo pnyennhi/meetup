@@ -1,0 +1,47 @@
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.help-item {
+  border-radius: 8px;
+}
+
+.help-item .image {
+  display: block;
+  border-radius: 8px 8px 0 0;
+}
+
+.help-item .image::before {
+  content: "";
+  display: block;
+  height: 56.25%;
+}
+
+.help-item .help-info {
+  padding-top: 20px;
+}
+
+.help-item .help-info h2 {
+  font-size: 20px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.help-item .help-info .info {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  height: 72px;
+  overflow-y: hidden;
+}
+
+.help-item .help-info .link {
+  color: #00a2c7;
+  font-weight: bold;
+}
