@@ -4,6 +4,10 @@ body {
   font-size: 16px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .title {
   padding: 0 0 36px;
   color: #212121;
@@ -11,8 +15,26 @@ body {
   font-weight: bold;
 }
 
+.container {
+  max-width: 1074px;
+  margin: auto;
+}
+
 @media (max-width: 1200px) {
   .container {
     margin: 0 20px;
+  }
+}
+
+.row {
+  display: flex;
+  margin: 0 -10px;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .col-sm-3 {
+    width: 33.333333333333%;
+    padding: 0 10px;
   }
 }
