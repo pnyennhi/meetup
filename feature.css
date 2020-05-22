@@ -1,0 +1,17 @@
+h2 {
+  margin: 0;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item .feature-title {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.feature-item .feature-info {
+  line-height: 1.5;
+  font-size: 16px;
+}
