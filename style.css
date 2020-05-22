@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.title {
+  padding: 0 0 36px;
+  color: #212121;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin: 0 20px;
+  }
+}
