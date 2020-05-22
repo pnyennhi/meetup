@@ -1,0 +1,91 @@
+.subscribe {
+  padding: 100px 0;
+  background-color: #00455d;
+  color: #fff;
+  position: relative;
+}
+
+.container {
+  max-width: 1074px;
+  margin: auto;
+}
+
+.subscribe .image {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.subscribe .title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.subscribe .subscription {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subscription .subscription-left {
+  flex-basis: 55%;
+}
+
+.subscription .subscription-right {
+  padding-right: 20px;
+}
+
+@media (max-width: 767.99px) {
+  .subscription .subscription-left {
+    flex-basis: 100%;
+  }
+
+  .subscription .subscription-right {
+    padding: 30px 0 100px;
+  }
+
+  .subscribe .image {
+    width: 100%;
+  }
+}
+
+.subscribe .subscription .subtitle {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.subscribe .subscription .subscription-left .subtitle {
+  margin-bottom: 30px;
+}
+
+.subscribe .subscription .subscription-right .subtitle {
+  margin-bottom: 10px;
+}
+
+.subscribe .subscription .subscription-left ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.subscribe .subscription .subscription-left svg {
+  width: 20px;
+  height: 20px;
+  stroke: #0098ab;
+  margin-right: 15px;
+}
+
+.subscribe .subscription .subscription-left li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.subscribe .subscription .subscription-right .price {
+  font-weight: bold;
+}
+
+.subscribe .subscription .subscription-right .price-number {
+  font-size: 32px;
+}
