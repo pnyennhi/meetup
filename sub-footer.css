@@ -1,0 +1,38 @@
+.sub-footer {
+  border-top: solid 2px #eee;
+}
+
+.container {
+  max-width: 1074px;
+  margin: auto;
+}
+
+.sub-footer .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.sub-footer p {
+  color: #212121;
+  margin: 0;
+}
+
+.sub-footer .btn {
+  display: block;
+  background-color: #f65858;
+  border: 1px solid #f65858;
+  border-radius: 8px;
+  padding: 10px 0;
+  width: 130px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.sub-footer .btn:hover {
+  background-color: rgba(246, 88, 88, 0.9);
+  border: 1px solid rgba(246, 88, 88, 0.9);
+}
