@@ -21,6 +21,7 @@ p {
 
 .review-item {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -30,12 +31,19 @@ p {
 
 .review-item .review-item-column img {
   border-radius: 8px;
+  width: 100%;
 }
 
 .review-item .review-item-column.review-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .review-item .review-item-column {
+    flex-basis: 100%;
+  }
 }
 
 .review-item .review-item-column .review-title {
