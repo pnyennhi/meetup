@@ -45,3 +45,12 @@ p {
   color: #00a2c7;
   font-weight: bold;
 }
+
+@media (max-width: 767.99px) {
+  .help-item {
+    margin-bottom: 10px;
+  }
+  .help-item .help-info .info {
+    height: auto;
+  }
+}
