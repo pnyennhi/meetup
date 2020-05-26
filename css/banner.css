@@ -4,7 +4,7 @@
 }
 
 .banner .container {
-  background-image: url("./images/last-call.jpg");
+  background-image: url("../images/last-call.jpg");
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
