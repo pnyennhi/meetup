@@ -16,6 +16,12 @@ a {
   width: 70%;
 }
 
+@media (max-width: 767.99px) {
+  .intro .content {
+    width: 100%;
+  }
+}
+
 .intro .content .subtitle {
   padding: 0 0 10px;
   color: #7a1d47;
